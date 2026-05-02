@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "rexnord": "https://www.rexnord.com/vocab/",
+
+    "Product": "schema:Product",
+    "partNumber": "schema:sku",
+    "productLine": "schema:brand",
+    "category": "schema:category",
+    "name": "schema:name",
+    "description": "schema:description",
+    "series": "rexnord:series",
+    "specifications": "rexnord:specifications",
+    "industry": "rexnord:industry",
+    "replacesPartNumber": "schema:isRelatedTo",
+    "documents": "schema:subjectOf",
+
+    "Organization": "schema:Organization",
+    "Bearings": "rexnord:Bearings",
+    "Couplings": "rexnord:Couplings",
+    "GearDrives": "rexnord:GearDrives",
+    "IndustrialChain": "rexnord:IndustrialChain",
+    "ConveyorComponents": "rexnord:ConveyorComponents",
+    "PlumbingComponents": "rexnord:PlumbingComponents"
+  }
+}

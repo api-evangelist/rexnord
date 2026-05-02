@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/rexnord/main/json-schema/rexnord-product-schema.json",
+  "title": "Rexnord Industrial Product",
+  "description": "Schema representing an industrial product in the Rexnord / Regal Rexnord catalog, covering bearings, couplings, gear drives, conveyor components, and plumbing products.",
+  "type": "object",
+  "properties": {
+    "partNumber": {
+      "type": "string",
+      "description": "Rexnord part number / catalog number"
+    },
+    "productLine": {
+      "type": "string",
+      "description": "Product line (e.g., Sealmaster, Link-Belt, Rexnord, Zurn)",
+      "example": "Link-Belt"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Bearings",
+        "Couplings",
+        "Gear Drives",
+        "Industrial Chain",
+        "Conveyor Components",
+        "Plumbing Components"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "description": "Product name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description"
+    },
+    "series": {
+      "type": "string",
+      "description": "Product series identifier"
+    },
+    "specifications": {
+      "type": "object",
+      "description": "Technical specifications (bore size, load rating, speed rating, etc.)"
+    },
+    "industry": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Target industries (e.g., Food Processing, Mining, Power Generation)"
+    },
+    "replacesPartNumber": {
+      "type": "string",
+      "description": "Legacy part number this product replaces"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string", "description": "e.g., DataSheet, InstallationGuide, CADDrawing" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  },
+  "required": ["partNumber", "category"]
+}

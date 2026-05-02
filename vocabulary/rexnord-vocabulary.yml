@@ -1,0 +1,104 @@
+vocabulary:
+  name: Rexnord Industrial Vocabulary
+  description: >-
+    Terminology and domain concepts for Rexnord industrial products covering
+    motion control, conveying, and water management.
+  version: "1.0.0"
+  created: "2026-05-02"
+  modified: "2026-05-02"
+
+terms:
+  - term: Rexnord
+    definition: >-
+      Global industrial manufacturer headquartered in Milwaukee, Wisconsin.
+      The Process and Motion Control segment merged with Regal Beloit in 2021
+      to form Regal Rexnord Corporation.
+
+  - term: Process and Motion Control
+    definition: >-
+      Rexnord's industrial drives platform providing bearings, couplings,
+      gear drives, conveyor components, and industrial chain.
+
+  - term: Water Management
+    definition: >-
+      Rexnord's plumbing platform providing drainage, backflow prevention,
+      and water control products. Acquired by Zurn Elkay in 2021.
+
+  - term: Bearing
+    definition: >-
+      Mechanical component that reduces friction between moving parts.
+      Rexnord's Link-Belt and Sealmaster brands cover ball, roller,
+      and mounted bearings.
+
+  - term: Coupling
+    definition: >-
+      Device connecting two shafts to transmit torque while accommodating
+      misalignment. Rexnord manufactures gear, disc, elastomeric, and
+      grid couplings.
+
+  - term: Gear Drive
+    definition: >-
+      Mechanical power transmission unit using meshing gears to change
+      speed and torque. Rexnord's Falk brand is well-known for gear drives.
+
+  - term: Industrial Chain
+    definition: >-
+      Drive and conveyor chains used in industrial applications including
+      food processing, material handling, and power transmission.
+
+  - term: Conveyor Component
+    definition: >-
+      Components used in conveyor systems including sprockets, idlers,
+      and conveyor chains.
+
+  - term: Regal Rexnord
+    definition: >-
+      Corporation formed by the 2021 merger of Rexnord Process and Motion
+      Control with Regal Beloit. Headquartered in Beloit, Wisconsin.
+
+  - term: Zurn Elkay
+    definition: >-
+      Company formed when Rexnord's water management business was acquired
+      and later merged with Elkay Manufacturing.
+
+  - term: Perceptiv
+    definition: >-
+      Regal Rexnord's intelligent reliability and maintenance platform
+      for condition monitoring and predictive maintenance using IIoT.
+
+  - term: DiRXN
+    definition: >-
+      Rexnord's digital platform for connected industrial products
+      and data analytics, integrated into the Regal Rexnord Perceptiv platform.
+
+  - term: IIoT
+    definition: >-
+      Industrial Internet of Things — networked sensors and devices
+      used for real-time monitoring of industrial equipment performance.
+
+  - term: Predictive Maintenance
+    definition: >-
+      Maintenance strategy using condition monitoring data to predict
+      equipment failures before they occur, reducing unplanned downtime.
+
+categories:
+  - name: Products
+    terms:
+      - Bearing
+      - Coupling
+      - Gear Drive
+      - Industrial Chain
+      - Conveyor Component
+
+  - name: Brands
+    terms:
+      - Rexnord
+      - Regal Rexnord
+      - Zurn Elkay
+
+  - name: Digital Platforms
+    terms:
+      - Perceptiv
+      - DiRXN
+      - IIoT
+      - Predictive Maintenance
