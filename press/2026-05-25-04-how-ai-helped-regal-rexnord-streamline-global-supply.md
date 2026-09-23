@@ -1,7 +1,9 @@
 ---
 title: How AI Helped Regal Rexnord Streamline Global Supply ...
 url: https://www.salesforce.com/news/stories/regal-rexnord-agentforce-optimizes-supply-chain/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Rexnord" press release artificial intelligence'
 position: 4
 source: serpapi-google

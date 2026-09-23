@@ -1,7 +1,9 @@
 ---
 title: REGAL REXNORD ANNOUNCES PARTICIPATION AT ...
 url: https://www.prnewswire.com/news-releases/regal-rexnord-announces-participation-at-upcoming-conference-302764783.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Rexnord" press release artificial intelligence'
 position: 1
 source: serpapi-google
