@@ -64,43 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rexnord was a global industrial company headquartered in Milwaukee, Wisconsin, with two platforms: Process and Motion Control (bearings, couplings, gear drives, industrial chain, conveyor systems) and Water Management (commercial/industrial plumbing). In 2021, the motion control segment merged with Regal Beloit to form Regal Rexnord Corporation, while water management was acquired by Zurn Elkay.
+Rexnord was a global industrial company headquartered in Milwaukee, Wisconsin, with two strategic platforms — Process and Motion Control (bearings, couplings, gear drives, industrial chain, and conveyor systems) and Water Management (plumbing components for commercial, industrial, municipal, and institutional settings). In 2021, Rexnord's Process and Motion Control segment merged with Regal Beloit to form Regal Rexnord Corporation, while the water management business was acquired by Zurn Elkay. Rexnord does not offer a public developer API or data services.
 
-**Website:** https://www.rexnord.com  
-**Regal Rexnord:** https://www.regalrexnord.com  
-**Type:** company (industrial manufacturer)
+**Areas:** Industrial Manufacturing · Motion Control · Water Management · Bearings · Couplings · Fortune 1000
 
-## APIs
+## Rexnord on APIs.io
 
-Rexnord does not offer a public developer API or data services. The company's connected product capabilities are delivered through the Perceptiv and DiRXN IIoT platforms for industrial customers, not via public APIs.
+Everything profiled for Rexnord is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rexnord/](https://apis.io/providers/rexnord/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-### JSON Schema
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| File | Description |
-|------|-------------|
-| [rexnord-product-schema.json](json-schema/rexnord-product-schema.json) | Industrial product catalog entity schema |
+#### JSON Schema (1)
 
-### JSON-LD
+The data models the API reads and writes.
 
-| File | Description |
-|------|-------------|
-| [rexnord-context.jsonld](json-ld/rexnord-context.jsonld) | JSON-LD context for Rexnord industrial product vocabulary |
+- [Rexnord Industrial Product](https://apis.io/schemas/rexnord/rexnord-product/)
 
-### Vocabulary
+#### JSON-LD (1)
 
-| File | Description |
-|------|-------------|
-| [rexnord-vocabulary.yml](vocabulary/rexnord-vocabulary.yml) | Industrial motion control domain vocabulary |
+Linked-data contexts for the provider's vocabulary.
 
-## Company Background
+- [Rexnord Context](https://apis.io/jsonld/rexnord/rexnord-context/)
 
-- **Products:** Bearings (Link-Belt, Sealmaster), Couplings (Thomas, Rex), Gear Drives (Falk), Conveyor Systems, Plumbing (Zurn)
-- **Key Event (2021):** Motion control merged with Regal Beloit → Regal Rexnord Corporation
-- **Key Event (2021):** Water management acquired by Zurn Elkay
-- **Digital Platform:** Perceptiv IIoT for predictive maintenance and condition monitoring
+#### Vocabulary (1)
 
-## Maintainers
+The provider's domain terms, defined.
 
-- Kin Lane — kin@apievangelist.com
+- [Rexnord Industrial Vocabulary](https://apis.io/vocabularies/rexnord/rexnord-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rexnord — jsonschema rules](https://apis.io/rules/rexnord/rexnord-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rexnord Domain Security](https://apis.io/security/rexnord/rexnord-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rexnord.com)
+
+## API Evangelist rating
+
+**Kin Score 8.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rexnord/](https://apis.io/providers/rexnord/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rexnord: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rexnord/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
